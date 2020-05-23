@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		D5B3327824792E7700C7A82D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3327724792E7700C7A82D /* AppDelegate.swift */; };
 		D5B3327A24792E7700C7A82D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3327924792E7700C7A82D /* SceneDelegate.swift */; };
-		D5B3327C24792E7700C7A82D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3327B24792E7700C7A82D /* ViewController.swift */; };
 		D5B3327F24792E7700C7A82D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B3327D24792E7700C7A82D /* Main.storyboard */; };
 		D5B3328224792E7700C7A82D /* testTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5B3328024792E7700C7A82D /* testTask.xcdatamodeld */; };
 		D5B3328424792E7900C7A82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B3328324792E7900C7A82D /* Assets.xcassets */; };
 		D5B3328724792E7900C7A82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B3328524792E7900C7A82D /* LaunchScreen.storyboard */; };
+		D5EB7C81247957C300FDAE91 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EB7C80247957C300FDAE91 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5B3327424792E7700C7A82D /* testTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B3327724792E7700C7A82D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5B3327924792E7700C7A82D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5B3327B24792E7700C7A82D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5B3327E24792E7700C7A82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5B3328124792E7700C7A82D /* testTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testTask.xcdatamodel; sourceTree = "<group>"; };
 		D5B3328324792E7900C7A82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B3328624792E7900C7A82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5B3328824792E7900C7A82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EB7C80247957C300FDAE91 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				D5B3327724792E7700C7A82D /* AppDelegate.swift */,
 				D5B3327924792E7700C7A82D /* SceneDelegate.swift */,
-				D5B3327B24792E7700C7A82D /* ViewController.swift */,
+				D5EB7C80247957C300FDAE91 /* TableViewController.swift */,
 				D5B3327D24792E7700C7A82D /* Main.storyboard */,
 				D5B3328324792E7900C7A82D /* Assets.xcassets */,
 				D5B3328524792E7900C7A82D /* LaunchScreen.storyboard */,
@@ -142,9 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B3328224792E7700C7A82D /* testTask.xcdatamodeld in Sources */,
-				D5B3327C24792E7700C7A82D /* ViewController.swift in Sources */,
 				D5B3327824792E7700C7A82D /* AppDelegate.swift in Sources */,
 				D5B3327A24792E7700C7A82D /* SceneDelegate.swift in Sources */,
+				D5EB7C81247957C300FDAE91 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
